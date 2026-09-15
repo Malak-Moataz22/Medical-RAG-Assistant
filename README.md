@@ -71,3 +71,25 @@ streamlit run frontend/app.py
 ## 🧪 Running Tests
 To verify the backend functionality and execute unit tests:
 pytest
+## 📸 Application Screenshots
+
+Here are some examples of the Medical RAG Assistant interface in action, demonstrating both valid medical document querying and proper handling of out-of-domain queries:
+
+### 1. Medical Query (Happy Path)
+
+* **Description:** The assistant accurately retrieves relevant medical information from the indexed documents and provides a grounded answer along with its source citations.
+* **Screenshot:**
+* EXAMPLE1
+* <img width="1600" height="863" alt="image" src="https://github.com/user-attachments/assets/44037283-9d59-4f27-933a-704858a6d74c" />
+*<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/a112a966-5e48-4194-9577-735c4afbdd7f" />
+
+*EXAMPLE2
+*<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/b500a994-2190-400a-af17-dedbc6266c0a" />
+*<img width="1600" height="862" alt="image" src="https://github.com/user-attachments/assets/e8767c12-ca8d-4044-9abc-a352c932fec5" />
+<img width="1600" height="862" alt="image" src="https://github.com/user-attachments/assets/2da5c1bf-0b1f-4bd9-aaee-7504ddd3cee9" />
+
+### 2. General Query Handling (Out-of-Domain)
+
+* **Description:** Demonstrates how the assistant safely handles non-medical questions, avoiding hallucinations and staying true to its specialized scope.
+* **Screenshot:**
+* <img width="1600" height="858" alt="image" src="https://github.com/user-attachments/assets/8431e11f-de2c-4fed-a7d3-718051ad0b84" />
